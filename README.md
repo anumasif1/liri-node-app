@@ -4,10 +4,10 @@ LIRI is a Language Interpretation and Recognition Interface. It's command line n
 *It will search **Spotify** for songs and **OMDB** for movies.
 
 **Node Packages used for this program:**
-*Node-Spotify-API\n
-*Axios\n
-*Moment\n
-*DotEnv\n
+* Node-Spotify-API
+* Axios
+* Moment
+* DotEnv
 
 
 
