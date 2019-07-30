@@ -18,3 +18,39 @@ Artist(s): "Backstreet Boys"
 Song: "I Want It That Way"
 Album: "The Hits--Chapter One"
 Preview Link: "https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=096d9e88f56749ff83e874e3bb7adbfe"
+Artist(s): "Camila Cabello"
+Song: "Havana (feat. Young Thug)"
+Album: "Camila"
+Preview Link: "https://p.scdn.co/mp3-preview/663b794c2fc8da8f9bbe33698cb1bac567126a23?cid=096d9e88f56749ff83e874e3bb7adbfe"
+Artist(s): "Aditi Singh Sharma"
+Song: "Dhoom Machale Dhoom"
+Album: "Dhoom:3 (Original)"
+Preview Link: "https://p.scdn.co/mp3-preview/e98f06a4044b33e5482934401880d13edfcd17fd?cid=096d9e88f56749ff83e874e3bb7adbfe"
+Title: Dumbo
+Year: 1941
+IMDB Rating: 7.3
+Rotten Tomatoes Rating: 96
+Country: USA
+Language: English
+Plot Ridiculed because of his enormous ears, a young circus elephant is assisted by a mouse to achieve his full potential.
+Actors: James Baskett, Herman Bing, Mel Blanc, Billy Bletcher
+Artist(s): "Backstreet Boys"
+Song: "I Want It That Way"
+Album: "The Hits--Chapter One"
+Preview Link: "https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=096d9e88f56749ff83e874e3bb7adbfe"
+Artist(s): "Backstreet Boys"
+Song: "I Want It That Way"
+Album: "The Hits--Chapter One"
+Preview Link: "https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=096d9e88f56749ff83e874e3bb7adbfe"
+Artist(s): "Backstreet Boys"
+Song: "I Want It That Way"
+Album: "The Hits--Chapter One"
+Preview Link: "https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=096d9e88f56749ff83e874e3bb7adbfe"
+Title: Dumbo
+Year: 1941
+IMDB Rating: 7.3
+Rotten Tomatoes Rating: 96
+Country: USA
+Language: English
+Plot Ridiculed because of his enormous ears, a young circus elephant is assisted by a mouse to achieve his full potential.
+Actors: James Baskett, Herman Bing, Mel Blanc, Billy Bletcher

@@ -14,20 +14,8 @@ var appendData = "";
 
 
 
-
-// fullSong = [];
-// for (var i = 2; i < process.argv.length; i++) {
-//     fullSong.push(process.argv[i]);
-// }
-// fullSong = fullSong.join(" ");
-
-
-console.log("Search: " + " " + search);
-
-
-
 // spotify-this-song function
-var spotifySearch = function (songName) {
+var spotifyThisSong = function (songName) {
     spotify.search({ type: 'track', query: songName, limit: 1 })
         .then(function (data) {
 
@@ -75,18 +63,40 @@ this.findMovie = function (movie) {
 }
 
 
+var doWhatItSays = function () {
+    fs.readFile("random.txt", "utf8", function (error, data) {
+
+        // If the code experiences any errors it will log the error to the console.
+        if (error) {
+            return console.log(error);
+        }
+
+        // We will then print the contents of data
+        console.log(data);
+
+        // Then split it by commas (to make it more readable)
+        var dataArr = data.split(",");
+       // console.log(dataArr);
+        spotifyThisSong(dataArr[1]);
+
+    })
+}
+
+
 // if/else on the category songs/movie.
-if (category === "song") {
-    spotifySearch(search);
-} else if (category === "movie") {
+if (category === "Spotify-this-song") {
+    spotifyThisSong(search);
+} else if (category === "Movie-this") {
     this.findMovie(search);
+} else if (category === "Do-what-it-says"){
+    doWhatItSays();
 }
 
 
 // //log.txt => Append search results on log.txt file
 // // If the file didn't exist, then it gets created on the fly.
 var logFile = function () {
-    fs.appendFile("log.txt", appendData+"\n", "utf8", function (err) {
+    fs.appendFile("log.txt", appendData + "\n", "utf8", function (err) {
         if (err) {
             console.log("Error occurred: ", err);
         } else {
@@ -94,27 +104,3 @@ var logFile = function () {
         }
     })
 }
-
-var doWhatItSays = function(){
-fs.readFile("random.txt", "utf8", function(error, data) {
-
-    // If the code experiences any errors it will log the error to the console.
-    if (error) {
-      return console.log(error);
-    }
-  
-    // We will then print the contents of data
-    console.log(data);
-  
-    // Then split it by commas (to make it more readable)
-    var dataArr = data.split(",");
-    search = dataArr[1]
-    spotifySearch(search);
-  
-    // We will then re-display the content as an array for later use.
-    console.log(dataArr);
-  
-  });
-}
-  
-doWhatItSays();
