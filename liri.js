@@ -15,6 +15,7 @@ var appendData = "";
 // spotify-this-song function
 var spotifyThisSong = function (songName) {
     spotify.search({ type: 'track', query: songName, limit: 1 })
+
         .then(function (data) {
 
             //JSON.stringify(data);
@@ -87,9 +88,20 @@ var doWhatItSays = function () {
 
 // check category to run Spotify-this-song or Movie-this or Do-what-it-says
 if (category === "Spotify-this-song") {
+    if (!process.argv[3]){
+        spotifyThisSong("The Sign by Ace of Base")
+    } else {
     spotifyThisSong(search);
+    }
 } else if (category === "Movie-this") {
-    this.findMovie(search);
+    if(!process.argv[3]){
+        search === "Mr Nobody";
+        console.log(search);
+        this.findMovie("Mr Nobody")
+    } else {
+        this.findMovie(search);
+    }
+    
 } else if (category === "Do-what-it-says") {
     doWhatItSays();
 }
