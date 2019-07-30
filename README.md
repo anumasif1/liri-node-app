@@ -57,6 +57,7 @@ This function takes the command to random.txt file. It reads the file and perfor
 
 ![Function LogFile](log-file.png)
 This function is being performed after every search. It appends all the results in log.txt file every time a search is performed.
+![Log File](log.png)
 
 * In order to see what action to perform code takes process.argv[2] as a category to check which function to call. 
     * If the category = Spotify-this-song, it will search Spotify
