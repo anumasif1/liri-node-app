@@ -104,6 +104,8 @@ if (category === "Spotify-this-song") {
     
 } else if (category === "Do-what-it-says") {
     doWhatItSays();
+} else {
+    console.log("Please enter the category of your search");
 }
 
 
