@@ -35,8 +35,8 @@ var spotifyThisSong = function (songName) {
 }
 
 //Movie-this function
-this.findMovie = function (movie) {
-    var queryUrl = "http://www.omdbapi.com/?t=" + search + "&y=&plot=short&apikey=trilogy";
+this.findMovie = function (movieName) {
+    var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
     // console.log(queryUrl);
 
     axios.get(queryUrl).then(
@@ -95,9 +95,9 @@ if (category === "Spotify-this-song") {
     }
 } else if (category === "Movie-this") {
     if(!process.argv[3]){
-        search === "Mr Nobody";
+        search = "Mr Nobody";
         console.log(search);
-        this.findMovie("Mr Nobody")
+        this.findMovie(search)
     } else {
         this.findMovie(search);
     }

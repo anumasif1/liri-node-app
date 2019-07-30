@@ -9,7 +9,22 @@ LIRI is a Language Interpretation and Recognition Interface. It's command line n
 * Moment
 * DotEnv
 
-
 ![Included Node Packages](img-1.png);
 
 
+**This App performs following 5 functions:**
+* **Spotify-this-song**
+   ![Function Spotify-this-song](spotify.png); 
+   * This function will search Spotify API for the required song. 
+   **Command to run in Terminal:** node liri.js spotify-this-song '<song name here>'
+   ![Terminal Spotify-this-song](spotify-run.png); 
+   * This command will display following details of the required song:
+        ** Artist(s)
+        ** Song Name
+        ** Album
+        ** Preview Link
+
+* Movie-this
+* Do-what-it-says
+* Log File
+* R
