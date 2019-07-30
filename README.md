@@ -12,4 +12,4 @@ LIRI is a Language Interpretation and Recognition Interface. It's command line n
 
 ![Included Node Packages](img-1.png);
 
-**This app is divided in 
+
